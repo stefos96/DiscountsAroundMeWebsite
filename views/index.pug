@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1 Discounts Around Me
+
+  a.btn.btn-warning(href="https://github.com/pavlidisnick/DiscountsAroundMe")
+    .image-block
+      img(src="images/github_icon.png" width='24px' height='24px')
+      |  View on Github
+  br
+  br
+
+  p
+    Android Application for checking product discounts and notifying you whenever a shop with discount is nearby.
+
+  br
+
+  .container
+    .col.col-lg-4.col-md-4.col-sm-4.col-xs-12
+      img.rounded(src="images/main_screen.png" width='80%' height='80%' align='center')
+    .col.col-lg-4.col-md-4.col-sm-4.col-xs-12
+      img.rounded(src="images/map_screen.png" width='80%' height='80%' align='center')
+    .col.col-lg-4.col-md-4.col-sm-4.col-xs-12(align='center')
+      h2 Get the app
+      a.btn.btn-warning(href="#") Download

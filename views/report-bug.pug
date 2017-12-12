@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h2 Report a Bug
+    form
+        .form-group
+            label Your Name
+            input.form-control(name="name" placeholder="John Doe")
+        .form-group
+            label Describe the error that took place
+            textarea.form-control(name="description" placeholder="Your Problem" rows="4")
+        button.btn.btn-danger(type="submit") Submit
