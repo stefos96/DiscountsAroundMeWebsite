@@ -10,8 +10,14 @@ git clone
 npm install
 ```
 ```
+npm install jade-bootstrap
+```
+```
 npm start
 ```
+
+### Prerequisites
+* [Node.js](https://nodejs.org/en/)
 
 ## Built With
 
